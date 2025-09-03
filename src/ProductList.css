@@ -187,8 +187,22 @@ body {
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
+}
 
-    
+/* Category heading styling */
+.product-grid h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
 }
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
